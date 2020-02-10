@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=NetC2_2 Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=5V Pin=C5-2
+Removed Pin From Net: NetName=VCC Pin=J1-1
+Removed Pin From Net: NetName=GND Pin=J1-2
+Removed Pin From Net: NetName=VOUT Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Change Component Footprint: Designator=L2 Old Footprint=AXIAL-0.3 New Footprint=Inductor Dia: 8.8mm
+Change Component Footprint: Designator=L1 Old Footprint=AXIAL-0.5 New Footprint=Inductor 2307-V-RC
+Change Component Footprint: Designator=D5 Old Footprint=DIODE-0.4 New Footprint=DO-201AD
+Change Component Footprint: Designator=D1 Old Footprint=LED-0 New Footprint=RAD-0.1
+Change Component Footprint: Designator=C3 Old Footprint=RAD-0.3 New Footprint=RAD-0.2
+Change Component Footprint: Designator=C4 Old Footprint=RAD-0.3 New Footprint=RAD-0.2
+Change Component Footprint: Designator=U1 Old Footprint=T05D New Footprint=TO-220-5
+Change Component Comment : Designator=D2 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Comment : Designator=D3 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Comment : Designator=D4 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Designator: OldDesignator=C3 NewDesignator=C4
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Added Component: Designator=C1(EEU-FM1V681)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Polarized Capacitor (Radial); 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RB7.6-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "680uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(EEU-FM1V221L)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Polarized Capacitor (Radial); 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RB7.6-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220uF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(EEU-FR1V181)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Polarized Capacitor (Radial); 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RB7.6-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "180uF"; VariantName = "[No Variations]"
+Added Component: Designator=J1(ST-2)
+Added Component: Designator=J2(ST-2)
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=VOUT Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC2_1
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC4_2

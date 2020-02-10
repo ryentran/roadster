@@ -1,0 +1,6 @@
+Added Component: Designator=U1(T05D)
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=NetD5_2 Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=NetC2_2 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC Pin=S1-1
+Added Component: Designator=S1(RAD-0.2)
+Added Pin To Net: NetName=VCC Pin=S1-1
+Added Pin To Net: NetName=NetD3_1 Pin=S1-2

@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C5 Old Footprint=Cap C322 New Footprint=Axial Cap 0.5mm
+Change Component Footprint: Designator=C4 Old Footprint=Cap FK24 New Footprint=Axial Cap 0.5mm
+Added Component: Designator=S?(E101 Switch)
+Added Pin To Net: NetName=VCC Pin=S?-2
+Added Pin To Net: NetName=NetD3_1 Pin=S?-3

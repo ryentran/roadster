@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=L1 Old Footprint=0402-A New Footprint=Inductor 2307-V-RC
+Change Component Footprint: Designator=L2 Old Footprint=0402-A New Footprint=Inductor Dia: 8.8mm
+Change Component Footprint: Designator=C4 Old Footprint=RAD-0.3 New Footprint=RAD-0.2
+Change Component Footprint: Designator=C5 Old Footprint=RAD-0.3 New Footprint=RAD-0.2
+Change Component Footprint: Designator=C2 Old Footprint=RB7.6-15 New Footprint=EEU-FM1V221L
+Change Component Footprint: Designator=C1 Old Footprint=RB7.6-15 New Footprint=EEU-FM1V681
+Change Component Footprint: Designator=C3 Old Footprint=RB7.6-15 New Footprint=EEU-FR1V181
+Change Component Footprint: Designator=D5 Old Footprint=SMB New Footprint=DO-201AD
+Change Component Comment: Designator=D2 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Comment: Designator=D3 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Comment: Designator=D4 Old Comment=Diode 1N4004 New Comment=1N4004
+Change Component Comment: Designator=D5 Old Comment=D Schottky New Comment=1N5824
+Change Component Comment: Designator=Q1 Old Comment=NMOS-2 New Comment=IRF520
+Change Component Comment: Designator=Q2 Old Comment=NMOS-2 New Comment=IRF520
