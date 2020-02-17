@@ -1,0 +1,5 @@
+# Don't track
+cam_mount/
+*.vscode
+*.mp4
+*.ini
