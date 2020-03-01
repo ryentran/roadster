@@ -4,10 +4,10 @@ import numpy as np
 
 servoPin = 7
 turningDegrees = 45.0
-rightTurnMax = 8.0
-leftTurnMax = 3.0
+rightTurnMax = 10.0
+leftTurnMax = 5.0
 hertz = 50
-threshold = 1.0
+threshold = -1
 
 class Servo:
     def __init__(self, servoPin = servoPin, turningDegrees = turningDegrees, leftTurnMax = leftTurnMax, rightTurnMax = rightTurnMax, hertz = hertz, threshold=threshold):
