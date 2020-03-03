@@ -13,10 +13,10 @@ MAX_SPEED = 40
 MIN_SPEED = 15
 MIN_CONTOUR_AREA = 15000
 
-MOTOR = True
+MOTOR = False
 TIME = False
 PRINT_ANGLE = False
-SHOW_VISUAL = False
+SHOW_VISUAL = True
 GPIO.setwarnings(False)
 width = 1280
 height = 720
@@ -42,19 +42,32 @@ try:
         # blur_img = cv2.medianBlur(gray_img,5)
         corrected_img = cv2.convertScaleAbs(blur_img, alpha=1, beta=20)
 
-
-        ret, thresh = cv2.threshold(corrected_img, 225, 255, cv2.THRESH_BINARY)
+        # 225
+        ret, thresh = cv2.threshold(corrected_img, 240, 255, cv2.THRESH_BINARY)
         
         contours, hierarchy = cv2.findContours(
             thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         
         if contours:
             skip = False
+
             contour_size = [len(contour) for contour in contours]
             cnt = contours[contour_size.index(max(contour_size))]
             print(cv2.contourArea(cnt))
             if cv2.contourArea(cnt) < MIN_CONTOUR_AREA:
                 skip = True
+                print("area")
+
+            if cv2.arcLength(cnt, False) < 1000:
+                print("length")
+            
+            # ellipse
+            ellipse = cv2.fitEllipse(cnt)
+
+            # circle
+            (x, y), radius = cv2.minEnclosingCircle(cnt)
+            
+            print(cv2.arcLength(cnt, False))
 
             rect = cv2.minAreaRect(cnt)
             box = cv2.boxPoints(rect)
@@ -95,6 +108,13 @@ try:
                 midPoint = np.int0(midPoint)
                 turnLine = [midPoint, [bottomPoint]]
                 turnLine = np.int0(turnLine)
+               
+                # ellipse
+                cv2.ellipse(img, ellipse, (0, 255, 0), 2)
+
+                # circle
+                cv2.circle(img, (int(x), int(y)), int(radius), (0, 255, 0), 2)
+
                 cv2.drawContours(img, contours, -1, (0, 255, 0), 1)
                 cv2.drawContours(img, [box], -1, (255, 0, 0), 1)
                 cv2.drawContours(img, [turnLine], -1, (255, 255, 0), 2)
