@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=D5-1
+Change component parameters: Designator = "D5" ("D5"); Footprint = "DO-201AD"; UniqueID = "\FNELSNNU" ("\FNELSNNU")
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=L1-1
+Added Pin To Net: NetName=NetD5_1 Pin=U1-2
+Added Net: Name=NetD5_1

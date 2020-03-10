@@ -157,66 +157,70 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.DRR
+DocumentPath=Project Outputs for Grand PrIEEE\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.EXTREP
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBL
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBO
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBS
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GKO
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM1
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM13
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM15
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTL
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTO
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTS
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.LDP
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.REP
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Grand PrIEEE\PCB1.RUL
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=Project Outputs for Grand PrIEEE\PCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Grand PrIEEE\PCB1.TXT
 DItemRevisionGUID=
 
@@ -441,71 +445,71 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-Configuration8_Name1=ForceUpdateSettings
-Configuration8_Item1=False
-Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -1223,28 +1227,88 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=AltiumWorkshopBasic.SchLib
-ComponentDesignItemID0=JST-2P
-ComponentSymbolReference0=JST-2P
+ComponentDesignItemID0=HDR_1x4
+ComponentSymbolReference0=HDR_1x4
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=AltiumWorkshopBasic.SchLib
-ComponentDesignItemID1=LM2940
-ComponentSymbolReference1=LM2940
+ComponentDesignItemID1=IR2301
+ComponentSymbolReference1=IR2301
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=AltiumWorkshopBasic.SchLib
-ComponentDesignItemID2=Switch
-ComponentSymbolReference2=Switch
+ComponentDesignItemID2=LED
+ComponentSymbolReference2=LED
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Miscellaneous Devices.IntLib
-ComponentDesignItemID3=Cap
-ComponentSymbolReference3=Cap
+ComponentLibraryIdentifier3=AltiumWorkshopBasic.SchLib
+ComponentDesignItemID3=LM2596
+ComponentSymbolReference3=LM2596
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=AltiumWorkshopBasic.SchLib
+ComponentDesignItemID4=Resistor
+ComponentSymbolReference4=Resistor
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=GrandPrieeeSch.SchLib
+ComponentDesignItemID5=Schottky Diode
+ComponentSymbolReference5=Schottky Diode
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=GrandPrieeeSch.SchLib
+ComponentDesignItemID6=Screw Terminal
+ComponentSymbolReference6=Screw Terminal
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=GrandPrieeeSch.SchLib
+ComponentDesignItemID7=Switch
+ComponentSymbolReference7=Switch
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Miscellaneous Devices.IntLib
+ComponentDesignItemID8=Cap Pol1
+ComponentSymbolReference8=Cap Pol1
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Miscellaneous Devices.IntLib
+ComponentDesignItemID9=Cap
+ComponentSymbolReference9=Cap
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Miscellaneous Devices.IntLib
+ComponentDesignItemID10=Diode 1N4004
+ComponentSymbolReference10=Diode 1N4004
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Miscellaneous Devices.IntLib
+ComponentDesignItemID11=Inductor
+ComponentSymbolReference11=Inductor
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Miscellaneous Devices.IntLib
+ComponentDesignItemID12=NMOS-2
+ComponentSymbolReference12=NMOS-2
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Miscellaneous Devices.IntLib
+ComponentDesignItemID13=Res1
+ComponentSymbolReference13=Res1
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1258,49 +1322,136 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Code_IEC
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Code_JEDEC
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Code_JEITA
 ParameterUpdate2=1
-ParameterName3=LatestRevisionDate
+ParameterName3=Color
 ParameterUpdate3=1
-ParameterName4=LatestRevisionNote
+ParameterName4=Comment
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=Component Kind
 ParameterUpdate5=1
-ParameterName6=PackageDescription
+ParameterName6=ComponentLink1Description
 ParameterUpdate6=1
-ParameterName7=PackageReference
+ParameterName7=ComponentLink1URL
 ParameterUpdate7=1
-ParameterName8=Published
+ParameterName8=ComponentLink2Description
 ParameterUpdate8=1
-ParameterName9=Publisher
+ParameterName9=ComponentLink2URL
 ParameterUpdate9=1
-ParameterName10=Value
+ParameterName10=DatasheetVersion
 ParameterUpdate10=1
+ParameterName11=Description
+ParameterUpdate11=1
+ParameterName12=LatestRevisionDate
+ParameterUpdate12=1
+ParameterName13=LatestRevisionNote
+ParameterUpdate13=1
+ParameterName14=Library Reference
+ParameterUpdate14=1
+ParameterName15=Note
+ParameterUpdate15=1
+ParameterName16=PackageDescription
+ParameterUpdate16=1
+ParameterName17=PackageReference
+ParameterUpdate17=1
+ParameterName18=PackageVersion
+ParameterUpdate18=1
+ParameterName19=Published
+ParameterUpdate19=1
+ParameterName20=Publisher
+ParameterUpdate20=1
+ParameterName21=Resistance
+ParameterUpdate21=1
+ParameterName22=Value
+ParameterUpdate22=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=JST-PH-2
+ModelName0=Axial Cap 0.5mm
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=RAD-0.3
+ModelName1=AXIAL-0.3
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=SOT230P700X180-4N
+ModelName2=DIP-8
 ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=DO-201AD
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=DO-41
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=E101 Switch
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=EEU-FM1V221L
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=EEU-FM1V681
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=EEU-FR1V181
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=HDR-4P
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=Inductor 2307-V-RC
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=Inductor Dia: 8.8mm
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=RAD-0.1
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=ST-2
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TO-220-5
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=TO-220AB
+ModelUpdate15=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType3=SI
-ModelName3=Cap
-ModelUpdate3=1
+ModelType16=SI
+ModelName16=1N4004
+ModelUpdate16=1
+ModelType17=SI
+ModelName17=Cap
+ModelUpdate17=1
+ModelType18=SI
+ModelName18=Cap Pol
+ModelUpdate18=1
+ModelType19=SI
+ModelName19=Inductor
+ModelUpdate19=1
+ModelType20=SI
+ModelName20=Res
+ModelUpdate20=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType4=SIM
-ModelName4=CAP
-ModelUpdate4=1
+ModelType21=SIM
+ModelName21=1N4004
+ModelUpdate21=1
+ModelType22=SIM
+ModelName22=CAP
+ModelUpdate22=1
+ModelType23=SIM
+ModelName23=INDUCTOR
+ModelUpdate23=1
+ModelType24=SIM
+ModelName24=IRF1010
+ModelUpdate24=1
+ModelType25=SIM
+ModelName25=RESISTOR
+ModelUpdate25=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

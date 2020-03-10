@@ -1,0 +1,25 @@
+Change Physical Footprint: Designator=C1 Old Footprint=EEU-FM1V681 New Footprint=EEU-FM1V681
+Change Physical Footprint: Designator=C2 Old Footprint=EEU-FM1V221L New Footprint=EEU-FM1V221L
+Change Physical Footprint: Designator=C3 Old Footprint=EEU-FR1V181 New Footprint=EEU-FR1V181
+Change Physical Footprint: Designator=C4 Old Footprint=Axial Cap 0.5mm New Footprint=Axial Cap 0.5mm
+Change Physical Footprint: Designator=C5 Old Footprint=Axial Cap 0.5mm New Footprint=Axial Cap 0.5mm
+Change Physical Footprint: Designator=D1 Old Footprint=RAD-0.1 New Footprint=RAD-0.1
+Change Physical Footprint: Designator=D2 Old Footprint=DO-41 New Footprint=DO-41
+Change Physical Footprint: Designator=D3 Old Footprint=DO-41 New Footprint=DO-41
+Change Physical Footprint: Designator=D4 Old Footprint=DO-41 New Footprint=DO-41
+Change Physical Footprint: Designator=D5 Old Footprint=DO-201AD New Footprint=DO-201AD
+Change Physical Footprint: Designator=IC1 Old Footprint=DIP-8 New Footprint=DIP-8
+Change Physical Footprint: Designator=J1 Old Footprint=ST-2 New Footprint=ST-2
+Change Physical Footprint: Designator=J2 Old Footprint=ST-2 New Footprint=ST-2
+Change Physical Footprint: Designator=L1 Old Footprint=Inductor 2307-V-RC New Footprint=Inductor 2307-V-RC
+Change Physical Footprint: Designator=L2 Old Footprint=Inductor Dia: 8.8mm New Footprint=Inductor Dia: 8.8mm
+Change Physical Footprint: Designator=P1 Old Footprint=HDR-4P New Footprint=HDR-4P
+Change Physical Footprint: Designator=Q1 Old Footprint=TO-220AB New Footprint=TO-220AB
+Change Physical Footprint: Designator=Q2 Old Footprint=TO-220AB New Footprint=TO-220AB
+Change Physical Footprint: Designator=R1 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=R2 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=R3 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=R4 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=R5 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.3
+Change Physical Footprint: Designator=S1 Old Footprint=E101 Switch New Footprint=E101 Switch
+Change Physical Footprint: Designator=U1 Old Footprint=TO-220-5 New Footprint=TO-220-5
